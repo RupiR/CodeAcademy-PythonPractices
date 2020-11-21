@@ -31,5 +31,13 @@ runtime = 5
 rating_out_of_10 = 2.5
 
 
+quilt_width = 8
+quilt_length = 12
+
+print(quilt_width * quilt_length)
+
+quilt_length = 8
+
+print(quilt_width * quilt_length)
 
 
