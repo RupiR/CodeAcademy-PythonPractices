@@ -103,3 +103,15 @@ fun_books = 20.00
 total_price += nice_sweater
 total_price += fun_books
 print("The total price is", total_price)
+
+
+
+# multi-line strings
+
+# Assign the string here
+to_you = """ Stranger, if you passing meet me and desire to speak to me, why
+  should you not speak to me?
+And why should I not speak to you?"""
+
+
+print(to_you)
