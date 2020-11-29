@@ -137,3 +137,12 @@ def loading_screen():
       print("This page is loading...")
 
 loading_screen()
+
+
+# whitespace 
+
+def about_this_computer():
+      print("This computer is running on version Everest Puma")
+print("This is your desktop")
+
+about_this_computer()
