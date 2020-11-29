@@ -130,3 +130,10 @@ sing_song()
 sing_song()
 
 
+
+# write a function
+
+def loading_screen():
+      print("This page is loading...")
+
+loading_screen()
