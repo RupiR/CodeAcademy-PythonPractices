@@ -198,3 +198,17 @@ def calculate_age(birth_year):
   
 print(current_year)
 print(calculate_age(1970))
+
+
+
+#f_to_c
+
+train_mass = 22680
+train_acceleration = 10
+train_distance = 100
+
+bomb_mass = 1
+
+def f_to_c(f_temp):
+  c_temp = (f_temp - 32) * 5/9
+  return c_temp
