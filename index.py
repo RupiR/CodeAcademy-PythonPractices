@@ -201,17 +201,7 @@ print(calculate_age(1970))
 
 
 
-#f_to_c
-
-train_mass = 22680
-train_acceleration = 10
-train_distance = 100
-
-bomb_mass = 1
-
-#function to convert fahrenheit to celsius
-def f_to_c(f_temp):
-  c_temp = (f_temp - 32) * 5/9
+#f_to_cemp - 32) * 5/9
   return c_temp
 
 f100_in_celsius = f_to_c(100)
@@ -247,3 +237,17 @@ def get_work(mass,acceleration,distance):
   return force*distance
 train_work=get_work(train_mass,train_acceleration,train_distance)
 print("The GE train does "+str(train_work)+" Joules of work over "+str(train_distance)+" meters.")
+
+
+
+#function to power
+# Write your tenth_power function here:
+def tenth_power(num):
+  return num**10
+# Uncomment these function calls to test your tenth_power function:
+print(tenth_power(1))
+# 1 to the 10th power is 1
+print(tenth_power(0))
+# 0 to the 10th power is 0
+print(tenth_power(2))
+# 2 to the 10th power is 1024
