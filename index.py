@@ -309,3 +309,17 @@ print(remainder(9, 6))
 
 
 
+# Control Flow - Boolean Expressions
+
+example_statement = "No"
+
+statement_one = "Yes"
+
+statement_two = "Yes"
+
+statement_three = "No"
+
+statement_four = "Yes"
+
+
+
