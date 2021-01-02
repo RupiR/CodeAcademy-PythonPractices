@@ -311,6 +311,20 @@ print(remainder(9, 6))
 
 # Control Flow - Boolean Expressions
 
+Statement one:
+
+Dogs are mammals.
+Statement two:
+
+My dog is named Pavel.
+Statement three:
+
+Dogs make the best pets.
+Statement four:
+
+Cats are female dogs.
+
+
 example_statement = "No"
 
 statement_one = "Yes"
@@ -323,3 +337,21 @@ statement_four = "Yes"
 
 
 
+# Relational Operators - Equals and not equals
+
+Statement one:
+
+(5 * 2) - 1 == 8 + 1
+
+Statement two:
+13 - 6 != (3 * 2) + 1
+
+Statement three:
+3 * (2 - 1) == 4 - 1
+
+
+statement_one = True
+
+statement_two = False
+
+statement_three = True
